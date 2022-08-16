@@ -3,32 +3,56 @@ body {
     background-color: rgb(159, 158, 216);
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
 }
     main {
         background-color: rgb(159, 158, 216);
         padding: 20px;
         font-family: Arial, Helvetica, sans-serif;
-        color: white
+        color: white;
+        text-align: center;
     }
 
     aside {
         background-color: rgb(159, 158, 216);
         padding: 20px;
         font-family: Arial, Helvetica, sans-serif; 
-        color: white
+        color: white;
+        text-align: center;
     }
 
     header {
         background-color: rgb(159, 158, 216);
         padding: 10px;
         font-family: Arial, Helvetica, sans-serif;
-        color: white
+        color: white;
+        text-align: center;
     }
 
     footer{
         background-color: rgb(159, 158, 216);
         padding: 20px;
         font-family: Arial, Helvetica, sans-serif;
-        color: white 
+        color: white;
+        text-align: center;
     }
 
+.Perseus {
+    border: inset 3px;
+    border-color: rgb(243, 232, 252);
+    padding: 2px;
+    padding-bottom: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+.Perseus .title {
+    font-weight: bold;
+}
+
+#menu li {
+    display:inline;
+    padding: 2px;
+    
+}
